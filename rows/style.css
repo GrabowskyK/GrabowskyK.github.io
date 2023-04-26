@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(5,32,22);
+    color: white;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#menu{
+    margin-left: 25px;
+    margin-right: auto;
+    height: 600px;;
+    width: 700px;
+    position: absolute;
+    z-index: 0;
+    opacity:100%;
+
+}
+
+#showCoin{
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height:50px;
+    
+}
+
+
+/* .Coin:hover {
+    border-radius: 100%;
+    background-color: rgb(184, 0, 0);
+    display: block;
+
+} */
+
+.placeColumn{
+    width: 100px;
+    opacity: 100%;
+    height: 100%;
+    float:left;
+    z-index: 0;
+}
+
+.placeColumn:hover{
+    background-color: rgba(252, 255, 190, 0.096);
+    z-index: 0;
+}
+
+
+#gameBorder{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(35, 53, 34);
+    height: 700px;
+    width: 750px;
+}
+
+table{
+    width: 700px;
+    height: 600px;
+    background-color: rgba(133, 116, 37, 0.469);
+    border-collapse: collapse;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+table td{
+    width: 100px;
+    height:100px;
+    text-align: center;
+    z-index: 3;
+} 
+
+.placeInside{
+    border-radius: 100%;
+    background-color: rgb(121, 121, 121);
+    width: 85px;
+    height: 85px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 3;
+}
+
+#end{
+    width: 500px;
+    height: 300px;
+    font-size: 32px;
+    margin: 5px;
+    background-color: rgb(44, 116, 68);
+    box-shadow: 12px 12px 2px 1px rgba(13, 36, 21, 0.4) ;
+    position: absolute;
+    top: 100px;
+    left: 40%;
+    animation: fromTopToMiddle 1.5s 1;
+    display: none;
+    animation: fromTopToMiddle 1.5s 1;
+}
+@keyframes fromTopToMiddle{
+    from{top: 0px; opacity: 0%;} 
+    to{top: 100px; opacity: 100%;}
+}

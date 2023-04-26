@@ -1,0 +1,84 @@
+<html>
+<head>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="main">
+        
+        <div id="gameBorder">
+            <div id="showCoin">
+            </div>
+            <div id="menu">
+                <div class="placeColumn" id="c0" onclick="addCoin(0,column0)"></div>
+                <div class="placeColumn" id="c1" onclick="addCoin(1,column1)"></div>
+                <div class="placeColumn" id="c2" onclick="addCoin(2,column2)"></div>
+                <div class="placeColumn" id="c3" onclick="addCoin(3,column3)"></div>
+                <div class="placeColumn" id="c4" onclick="addCoin(4,column4)"></div>
+                <div class="placeColumn" id="c5" onclick="addCoin(5,column5)"></div>
+                <div class="placeColumn" id="c6" onclick="addCoin(6,column6)"></div>
+            </div>
+            <table>
+                <tr>
+                    <td><div class="placeInside" id="row00"></div></td>
+                    <td><div class="placeInside" id="row01"></div></td>
+                    <td><div class="placeInside" id="row02"></div></td>
+                    <td><div class="placeInside" id="row03"></div></td>
+                    <td><div class="placeInside" id="row04"></div></td>
+                    <td><div class="placeInside" id="row05"></div></td>
+                    <td><div class="placeInside" id="row06"></div></td>
+                </tr>
+                <tr>
+                    <td><div class="placeInside" id="row10"></div></td>
+                    <td><div class="placeInside" id="row11"></div></td>
+                    <td><div class="placeInside" id="row12"></div></td>
+                    <td><div class="placeInside" id="row13"></div></td>
+                    <td><div class="placeInside" id="row14"></div></td>
+                    <td><div class="placeInside" id="row15"></div></td>
+                    <td><div class="placeInside" id="row16"></div></td>
+                </tr>
+                <tr>
+                    <td><div class="placeInside" id="row20"></div></td>
+                    <td><div class="placeInside" id="row21"></div></td>
+                    <td><div class="placeInside" id="row22"></div></td>
+                    <td><div class="placeInside" id="row23"></div></td>
+                    <td><div class="placeInside" id="row24"></div></td>
+                    <td><div class="placeInside" id="row25"></div></td>
+                    <td><div class="placeInside" id="row26"></div></td>
+                </tr>
+                <tr>
+                    <td><div class="placeInside" id="row30"></div></td>
+                    <td><div class="placeInside" id="row31"></div></td>
+                    <td><div class="placeInside" id="row32"></div></td>
+                    <td><div class="placeInside" id="row33"></div></td>
+                    <td><div class="placeInside" id="row34"></div></td>
+                    <td><div class="placeInside" id="row35"></div></td>
+                    <td><div class="placeInside" id="row36"></div></td>
+                </tr>
+                <tr>
+                    <td><div class="placeInside" id="row40"></div></td>
+                    <td><div class="placeInside" id="row41"></div></td>
+                    <td><div class="placeInside" id="row42"></div></td>
+                    <td><div class="placeInside" id="row43"></div></td>
+                    <td><div class="placeInside" id="row44"></div></td>
+                    <td><div class="placeInside" id="row45"></div></td>
+                    <td><div class="placeInside" id="row46"></div></td>
+                </tr>
+                <tr>
+                    <td><div class="placeInside" id="row50"></div></td>
+                    <td><div class="placeInside" id="row51"></div></td>
+                    <td><div class="placeInside" id="row52"></div></td>
+                    <td><div class="placeInside" id="row53"></div></td>
+                    <td><div class="placeInside" id="row54"></div></td>
+                    <td><div class="placeInside" id="row55"></div></td>
+                    <td><div class="placeInside" id="row56"></div></td>
+                </tr>
+            </table>
+        </div>
+        <input type="button" value="reset" onclick="reset()">
+        <div id="end"></div>
+    </div>
+    <script src="functions.js">
+    </script>
+</body>
+</html>
