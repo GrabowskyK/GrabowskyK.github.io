@@ -1,0 +1,28 @@
+<html>
+<head>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="end">
+        <h2>Koniec Gry!</h2>
+        <p id="endPoints"></p>
+        <input type="button" id="playAgain" onclick="playGame()" value="Zagraj ponownie">
+    </div>
+    <div id="menu">
+        <input type="button" id="play" onclick="playGame()" value="Start"><br><br>
+        <!--<input type="button" id="end" value="check" onclick="endgame()">-->
+        <!--<input type="button" onclick="addDivColor()" value="Check"><br>-->
+        <h2>Punkty: <span id="points">0</span></h2>
+        <span>Kolor do zgadnięcia: </span><div id="wynik"></div><br><br>
+        <span>Życia: <div id="lifeCount"></div></span>
+    </div>
+    
+        <div id="pojemnik">
+        </div>
+        
+        <!--<input type="submit" value="qQQQq" onclick="randColor()">-->
+    <script src="color.js">
+    </script>
+</body>
+</html>

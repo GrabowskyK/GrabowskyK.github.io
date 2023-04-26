@@ -1,0 +1,1 @@
+Zadanie robione pare lat temu, więc kod jest słaby.
